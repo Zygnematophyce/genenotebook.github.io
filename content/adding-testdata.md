@@ -2,7 +2,7 @@
 section: 2. Adding data
 path: /documentation/adding-testdata
 title: GeneNoteBook test data
-order: 5
+order: 7
 ---
 
 To quickly test GeneNoteBook functionality, the GeneNoteBook repository contains a small test dataset  of 100 genes from _Medicago truncatula_, along with predicted protein domains and quantified gene expression from several publicly available transcriptomes.

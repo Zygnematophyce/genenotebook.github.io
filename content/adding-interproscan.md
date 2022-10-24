@@ -5,7 +5,19 @@ title: Protein domain predictions
 order: 4
 ---
 ```
-genenotebook add interproscan [options] <InterProScan GFF3 file>
+genenotebook add interproscan [options] <InterProScan GFF3 or TSV output file>
+```
+
+<br/>
+
+_Format option_
+
+- `--format [parser] ` Choose a parser for the interproscan output files.
+
+Example:
+
+```
+genenotebook add interproscan testdata_iprscan.tabular --format tsv
 ```
 
 <br/>
